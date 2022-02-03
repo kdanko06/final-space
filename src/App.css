@@ -9,10 +9,13 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
+.App-quest{
+  color: rgba(255, 166, 0, 0.849);
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
