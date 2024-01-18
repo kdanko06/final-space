@@ -1,15 +1,24 @@
 import Home from './Home';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.css'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <BrowserRouter>
+  return (<>
+
+    <Router>
+      <div>
+        <div className='Top-navigation'>
+        </div>
         <Routes>
           <Route index element={<Home />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </Router>
+  </>
   );
 }
 
