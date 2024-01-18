@@ -1,0 +1,16 @@
+.Background{
+    position: absolute;
+    top: 44px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./finalspace.jpg');
+    background-size: cover;
+}
+
+.Margin-Button{
+    margin: 10px;
+}
+
