@@ -5,3 +5,11 @@
     width: 100%;
     height: 44px;
 }
+
+.Nav-button{
+    position: fixed;
+    top: 2px;
+    width: 40px;
+    height: 20px;
+    background-color: blue;
+}
